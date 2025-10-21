@@ -102,9 +102,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - Recipe content from traditional Egyptian cuisine
-- Images from [source]
 - Inspiration from Egyptian food culture
-- Bootstrap team for the framework
 - Font Awesome for icons
 
 ---
