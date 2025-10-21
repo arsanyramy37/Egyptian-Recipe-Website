@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECIPE APP</title>
+    <link rel="stylesheet" href="dinner.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="first-page">
+      <div id="pageMenu">
+        <nav>
+          <a href=""><img src="imgs/logo.png" alt="" /></a>
+          <ul id="mainMenu" style="width: 75%">
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#categories">categories</a></li>
+            <li><a href="index.html#about">about</a></li>
+            <li><a href="index.html#contact">contact</a></li>
+            <li><a href="favorite.html">favorite</a></li>
+          </ul>
+          <form class="d-flex" id="searchForm">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="searchInput"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <ul id="pageMenuSocialIcons" style="width: 10%">
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+          <ul id="pageMenuSideMenu" style="width: 5%">
+            <li>
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+      <div class="breakfast">
+        <h1 id="hawawshi">HAWAWSHI</h1>
+          <button class="fav-btn" data-id="hawawshi" data-name="hawawshi">❤️</button>
+
+        <p>
+          Hawawshi are Egyptian pita pockets. After cooking, consider adding
+          lettuce, cheese, tomatoes, and jalapeño or serrano peppers into the
+          pita pockets as well.
+        </p>
+        <img src="imgs/hawawshi.webp" alt="hawawshi" />
+        <h2>INGREDIENTS</h2>
+        <ul>
+          <li>½ pound ground beef</li>
+          <li>2 tomatoes, diced</li>
+          <li>1 large onion, diced</li>
+          <li>1 green bell pepper, diced</li>
+          <li>1 pinch paprika, or to taste</li>
+          <li>1 pinch ground coriander, or to taste</li>
+          <li>1 pinch ground cinnamon, or to taste</li>
+          <li>1 pinch ground nutmeg, or to taste</li>
+          <li>salt and ground black pepper to taste</li>
+          <li>5 pita bread rounds, split</li>
+          <li>1 tablespoon corn oil</li>
+        </ul>
+        <h2>DIRECTIONS</h2>
+        <ul>
+          <li>Preheat the oven to 325 degrees F (165 degrees C).</li>
+          <li>
+            Heat a large skillet over medium-high heat. Cook and stir ground
+            beef in the hot skillet until browned and crumbly, 5 to 7 minutes.
+            Let cool slightly.
+          </li>
+          <li>
+            Mix cooked beef, tomatoes, onion, bell pepper, paprika, coriander,
+            cinnamon, nutmeg, salt, and pepper together in a large bowl until
+            well combined. Stuff mixture inside of pita bread rounds.
+          </li>
+          <li>
+            Brush tops with corn oil and wrap each in aluminum foil. Place on a
+            baking sheet.
+          </li>
+          <li>
+            Bake in the preheated oven until toasted and vegetables are
+            softened, about 30 minutes.
+          </li>
+        </ul>
+
+        <h1 id="mahalabia">MAHALABIA</h1>
+          <button class="fav-btn" data-id="mahalabia" data-name="mahalabia">❤️</button>
+
+        <p> 
+          Mahalabia is a popular dessert in Egypt and other Middle Eastern
+          countries. This rich version features both milk and heavy cream.
+        </p>
+        <img src="imgs/mahalabia.webp" alt="mahalabia" />
+        <h2>INGREDIENTS</h2>
+        <ul>
+          <li>2 cups milk</li>
+          <li>1 cup heavy cream</li>
+          <li>3 tablespoons white sugar</li>
+          <li>2 teaspoons vanilla sugar</li>
+          <li>4 teaspoons cornstarch, or more as needed</li>
+          <li>¼ teaspoon ground cinnamon, or to taste (Optional)</li>
+        </ul>
+        <h2>DIRECTIONS</h2>
+        <ul>
+          <li>
+            Combine milk, cream, sugar, vanilla sugar, and cornstarch in a
+            saucepan and whisk until well combined. Slowly bring to a boil over
+            medium heat and cook, stirring constantly, until thickened and
+            mixture coats the back of a spoon, 10 to 15 minutes. Remove from
+            heat.
+          </li>
+          <li>
+            Pour pudding into 4 dessert bowls and allow to cool to room
+            temperature, about 30 minutes. Refrigerate until chilled, 1 more
+            hour. Sprinkle with cinnamon to serve.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div id="contact" class="col">
+        <h2>Contact Us</h2>
+        <p class="mar">
+          <i class="fa-solid fa-location-dot"></i> 8th floor, 379 Hudson St, New
+          York, NY 10018
+        </p>
+        <p><i class="fa-solid fa-phone"></i> (+1) 96 716 6879</p>
+        <p><i class="fa-solid fa-envelope"></i> contact@site.com</p>
+        <h2 id="mar1">Opening Times</h2>
+        <p id="mar2">09:30 AM – 11:00 PM</p>
+        <p>Every Day</p>
+      </div>
+      <div class="col">
+        <h2>Latest twitter</h2>
+        <p class="mar">
+          <i class="fa-brands fa-twitter"></i
+          ><b style="color: #ec1d25; opacity: 1">@colorlib</b>
+        </p>
+        <p>
+          Activello is a good option. It has a slider built into that displays
+          the featured image in the slider.<b style="color: #ec1d25; opacity: 1"
+            >https://buff.ly/2zaSfAQ</b
+          >
+        </p>
+        <p>21 Dec 2017</p>
+        <p><i class="fa-brands fa-twitter"></i> <b id="red">@colorlib</b></p>
+        <p>
+          Activello is a good option. It has a slider built into that displays
+          <b style="color: #ec1d25; opacity: 1">https://buff.ly/2zaSfAQ</b>
+        </p>
+        <p>21 Dec 2017</p>
+      </div>
+      <div class="col col3">
+        <h2>GALLERY</h2>
+        <div class="gallery-imgs">
+          <img src="imgs/food1.jpg" alt="food" />
+          <img src="imgs/food2.jpg" alt="food" />
+          <img src="imgs/food3.jpg" alt="food" />
+          <img src="imgs/food4.jpg" alt="food" />
+          <img src="imgs/food5.jpg" alt="food" />
+          <img src="imgs/food6.jpg" alt="food" />
+        </div>
+      </div>
+    </footer>
+    <div class="foot2">
+      <div class="three-icons">
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © 2018 All rights reserved | This template is made with
+          <i class="fa-sharp fa-solid fa-heart"></i> by Arsany
+        </p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

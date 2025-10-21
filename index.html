@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECIPE APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="first-page">
+      <div id="pageMenu">
+        <nav>
+          <a href=""><img src="imgs/logo.png" alt="" /></a>
+          <ul id="mainMenu" style="width: 75%">
+            <li><a href="">home</a></li>
+            <li><a href="#categories">categories</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="favorite.html">favorite</a></li>
+          </ul>
+          <form class="d-flex" id="searchForm">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="searchInput"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <ul id="pageMenuSocialIcons" style="width: 10%">
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+          <ul id="pageMenuSideMenu" style="width: 5%">
+            <li>
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="welcome">
+        <button><i class="fa fa-angle-left"></i></button>
+        <div id="wel">
+          <h3>Welcome to</h3>
+          <h2>FOODIE WEBSITE</h2>
+          <a href="#categories"><button>HUNGRY</button></a>
+        </div>
+        <button><i class="fa fa-angle-right"></i></button>
+      </div>
+      <div>
+        <ul class="dots">
+          <li id="d1"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- who we are -->
+    <div class="customer-say" id="about">
+      <div class="cs-text">
+        <h2>Who We</h2>
+        <h1>ARE</h1>
+      </div>
+      <div class="cs-container">
+        <button class="cs-btn cs-left"><i class="fa fa-angle-left"></i></button>
+        <img src="imgs/avatar-05.jpg" alt="" />
+        <p class="cs-review">
+          “ We are lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Aenean tellus sem, mattis in pre-tium nec, fermentum viverra dui ”
+        </p>
+        <p class="stars">
+          <i class="fa-sharp fa-solid fa-star"></i
+          ><i class="fa-sharp fa-solid fa-star"></i
+          ><i class="fa-sharp fa-solid fa-star"></i
+          ><i class="fa-sharp fa-solid fa-star"></i
+          ><i class="fa-sharp fa-solid fa-star"></i>
+        </p>
+        <p class="cs-cs">JOHN SIMMONS - NEW YORK</p>
+        <button class="cs-btn cs-right">
+          <i class="fa fa-angle-right"></i>
+        </button>
+      </div>
+      <div class="cs-3dots">
+        <ul class="dots">
+          <li id="d1"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- categories -->
+    <div id="categories" class="categories">
+      <h1>CATEGORIES</h1>
+      <div class="main4">
+        <div class="sec">
+          <div class="main4-img-container mic">
+            <a href="breakfast.html" target="_blank"
+              ><img class="main4-img" src="imgs/breakfast.jpg"
+            /></a>
+          </div>
+          <h2>BREAKFAST</h2>
+          <p>
+            Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+          </p>
+          <p class="lm">Learn More <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+        <div class="sec">
+          <div class="main4-img-container">
+            <a href="lunch.html" target="_blank"
+              ><img class="main4-img" src="imgs/Lunch-.jpg"
+            /></a>
+          </div>
+          <h2>LUNCH</h2>
+          <p>
+            Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh
+            urna
+          </p>
+          <p class="lm">Learn More <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+        <div class="sec">
+          <div class="main4-img-container mic">
+            <a href="dinner.html" target="_blank"
+              ><img class="main4-img" src="imgs/DINNER.jpg"
+            /></a>
+          </div>
+          <h2>DINNER</h2>
+          <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+          <p class="lm">Learn More <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div id="contact" class="col">
+        <h2>Contact Us</h2>
+        <p class="mar">
+          <i class="fa-solid fa-location-dot"></i> 8th floor, 379 Hudson St, New
+          York, NY 10018
+        </p>
+        <p><i class="fa-solid fa-phone"></i> (+1) 96 716 6879</p>
+        <p><i class="fa-solid fa-envelope"></i> contact@site.com</p>
+        <h2 id="mar1">Opening Times</h2>
+        <p id="mar2">09:30 AM – 11:00 PM</p>
+        <p>Every Day</p>
+      </div>
+      <div class="col">
+        <h2>Latest twitter</h2>
+        <p class="mar">
+          <i class="fa-brands fa-twitter"></i
+          ><b style="color: #ec1d25; opacity: 1">@colorlib</b>
+        </p>
+        <p>
+          Activello is a good option. It has a slider built into that displays
+          the featured image in the slider.<b style="color: #ec1d25; opacity: 1"
+            >https://buff.ly/2zaSfAQ</b
+          >
+        </p>
+        <p>21 Dec 2017</p>
+        <p><i class="fa-brands fa-twitter"></i> <b id="red">@colorlib</b></p>
+        <p>
+          Activello is a good option. It has a slider built into that displays
+          <b style="color: #ec1d25; opacity: 1">https://buff.ly/2zaSfAQ</b>
+        </p>
+        <p>21 Dec 2017</p>
+      </div>
+      <div class="col col3">
+        <h2>GALLERY</h2>
+        <div class="gallery-imgs">
+          <img src="imgs/food1.jpg" alt="food" />
+          <img src="imgs/food2.jpg" alt="food" />
+          <img src="imgs/food3.jpg" alt="food" />
+          <img src="imgs/food4.jpg" alt="food" />
+          <img src="imgs/food5.jpg" alt="food" />
+          <img src="imgs/food6.jpg" alt="food" />
+        </div>
+      </div>
+    </footer>
+    <div class="foot2">
+      <div class="three-icons">
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © 2018 All rights reserved | This template is made with
+          <i class="fa-sharp fa-solid fa-heart"></i> by Arsany
+        </p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
